@@ -3,7 +3,6 @@ import Css from './img/Css.png'
 import Js from './img/Js.png'
 import Sass from './img/Sass.png'
 import Node from './img/Nodejs.png'
-import Mongo from './img/Mongo.png'
 import React from './img/React.png'
 import Express from './img/Express.png'
 import VsCode from './img/VsCode.png'
@@ -12,6 +11,7 @@ import Git from './img/Git.png'
 import Github from './img/Github.png'
 import Chrome from './img/Chrome.png'
 import Bootstrap from './img/Boostrap.png'
+import Wordpress from './img/wordpress.png'
 
 const SskData = [
   {
@@ -30,7 +30,7 @@ const SskData = [
     src: Js,
   },
   {
-    src: Mongo,
+    src: Wordpress,
   },
   {
     src: Express,

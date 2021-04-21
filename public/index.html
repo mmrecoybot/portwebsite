@@ -22,26 +22,47 @@
       e.preventDefault();
     }, false);
 
-    document.onkeypress = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-        return false;
-      }
-    }
-    document.onmousedown = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-        return false;
-      }
-    }
-    document.onkeydown = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-        return false;
-      }
-    }
-  </script>
 
+
+    //////////////////disable f12
+    // document.onkeypress = function (event) {
+    //   event = (event || window.event);
+    //   if (event.keyCode == 123) {
+    //     return false;
+    //   }
+    // }
+
+    // document.onmousedown = function (event) {
+    //   event = (event || window.event);
+    //   if (event.keyCode == 123) {
+    //     return false;
+    //   }
+    // }
+    // document.onkeydown = function (event) {
+    //   event = (event || window.event);
+    //   if (event.keyCode == 123) {
+    //     return false;
+    //   }
+    // };
+
+    
+
+    ///////Disable Ctrl + U 
+    document.onkeydown = function (even) {
+      if (even.ctrlKey &&
+        (even.keyCode === 67 ||
+          even.keyCode === 86 ||
+          even.keyCode === 85 ||
+          even.keyCode === 117)) {
+        alert('Hey fool why do you want to see my page source. It has to be disabled.');
+        return false;
+      } else {
+        return true;
+      }
+    };
+
+
+  </script>
 </body>
 
 </html>

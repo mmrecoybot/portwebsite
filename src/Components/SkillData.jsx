@@ -12,6 +12,7 @@ import Git from './img/Git.png'
 import Github from './img/Github.png'
 import Chrome from './img/Chrome.png'
 import Bootstrap from './img/Boostrap.png'
+import Wordpress from './img/wordpress.png'
 
 const SkillData = [
   {
@@ -107,6 +108,13 @@ const SkillData = [
     title: 'Chrome',
     desc:
       'The best browser for developers. It provides us some cool dev tools.',
+    class: 'essential',
+  },
+  {
+    src: Wordpress,
+    title: 'WordPress',
+    desc:
+      'WordPress is a website builder and content management system. It is an open source software that anyone can use to make any kind of website imaginable. It started out as a blogging platform in 2003 but soon transformed into a CMS and later a full-fledged website building platform',
     class: 'essential',
   },
 ]
