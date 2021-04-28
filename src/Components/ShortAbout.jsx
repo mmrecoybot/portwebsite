@@ -4,7 +4,7 @@ import AboutSrc from './img/About.png'
 
 const ShortAbout = () => {
   const year = new Date().getFullYear()
-  const myExperience = year - 2020
+  const myExperience = year - 2021
   return (
     <>
       <section id="About">
@@ -13,8 +13,8 @@ const ShortAbout = () => {
             <div id="AboutDesc" data-aos="fade-up">
               <h2>Few Words About Me</h2>
               <p>
-                Hi there, Hope you are doing well. I am Ratul. I am a MERN stack
-                web developer. I love developing web and mobile applications. I
+                Hi there, Hope you are doing well. I am Md Mustafizur Rahman. I am aJunior Full Stack
+                web developer. I love developing web applications. I
                 have more than {myExperience} years of experinece as a web
                 developer. I have Designed and Developed many website.
               </p>
