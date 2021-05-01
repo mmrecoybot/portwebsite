@@ -42,7 +42,7 @@ const About = () => {
                 </p>
                 <p>
                   I am a young guy. I am {myAge} years old. I have been coding
-                  since the end of 2018. I have a nice experience in Javascript.
+                  since the start of 2019. I have a nice experience in Javascript.
                   I really love Javascript. I have a pretty much nice skill on
                   React Js. Node Js, MongoDB, WordPress, Most of my projects are done with React Js. I am
                   also good in NodeJs, MongoDB, express, Sass, Redux and More.

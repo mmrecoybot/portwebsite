@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AboutSrc from './img/About.png'
+import AboutSrc from './img/aboutMe.jpg'
 
 const ShortAbout = () => {
   const year = new Date().getFullYear()
-  const myExperience = year - 2021
+  const myExperience = year - 2019
   return (
     <>
       <section id="About">

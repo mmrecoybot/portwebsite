@@ -3,7 +3,7 @@ import ProjectData from './ProjectData'
 import Title from './Title'
 import Footer from './Footer'
 import GitHubIcon from '@material-ui/icons/GitHub'
-
+import FolderOpenIcon from '@material-ui/icons/FolderOpen'
 const Project = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -17,7 +17,12 @@ const Project = () => {
           <div id="ProjectDesc">
             <h2> {prop.title} </h2>
             <p> {prop.desc} </p>
-            <a href={prop.link} target="_blank" rel="noopener noreferrer">
+            <a href={prop.LiveLink} target="_blank" rel="noopener noreferrer">
+              <FolderOpenIcon
+                style={{ fontSize: ' 2.5rem ', margin: '15px 0px' }}
+              />
+            </a>
+            <a href={prop.GithubLink} target="_blank" rel="noopener noreferrer">
               <GitHubIcon
                 style={{ fontSize: ' 2.5rem ', margin: '10px 0px' }}
               />
@@ -41,7 +46,8 @@ const Project = () => {
                 key={index}
                 title={data.title}
                 desc={data.desc}
-                link={data.link}
+                LiveLink ={data.LiveLink}
+                GithubLink={data.GithubLink}
                 src={data.src}
                 animate={data.animate}
               />

@@ -10,6 +10,7 @@ import Contact from './Components/Contact'
 import Top from './Components/Top'
 import ErrorPage from './Components/Error'
 import Loader from './Components/Loader'
+import Blogs from './Components/Blogs'
 
 const App = () => {
   document.querySelector('body').addEventListener('keypress', (event) => {
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/project" component={Project} />
           <Route path="/skill" component={Skills} />
           <Route path="/contact" component={Contact} />
+          <Route path="/blog" component={Blogs} />
           <Route component={ErrorPage} />
         </Switch>
       </BrowserRouter>

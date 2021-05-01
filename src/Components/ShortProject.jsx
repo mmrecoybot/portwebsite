@@ -17,7 +17,7 @@ const ShortProject = () => {
           <div id="SingleShortProjectDesc">
             <h2> {prop.title} </h2>
             <p> {prop.desc} </p>
-            <a href={prop.link} target="_blank" rel="noopener noreferrer">
+            <a href={prop.LiveLink} target="_blank" rel="noopener noreferrer">
               <FolderOpenIcon
                 style={{ fontSize: ' 2.5rem ', margin: '15px 0px' }}
               />
@@ -39,7 +39,7 @@ const ShortProject = () => {
                 src={data.src}
                 title={data.title}
                 desc={data.desc}
-                link={data.link}
+                LiveLink={data.LiveLink}
                 animate={data.animate}
               />
             )

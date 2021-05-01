@@ -4,7 +4,7 @@ import Title from './Title'
 
 const Faq = () => {
   const currentYear = new Date().getFullYear()
-  const myExperience = currentYear - 2018
+  const myExperience = currentYear - 2019
   return (
     <>
       <section id="Faq">

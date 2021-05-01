@@ -1,37 +1,35 @@
-import Portfolio from './img/Portfolio.png'
-import AzamW from './img/AzamW.png'
-import Brigrate from './img/Brigrate.png'
-import NoteApp from './img/NoteApp.png'
+import Tailor from './img/TAILOR.png'
+import Reaction from './img/Reaction.png'
 import MusicPlayer from './img/musicPlayer.png'
 import Quiz from './img/QuizApp.png'
 
 const SpData = [
   {
-    title: 'My Portfolio',
-    desc: 'This is my official portfolio.',
-    link: 'sp Data Link',
-    src: Portfolio,
+    title: 'Tailor Service',
+    desc: 'Simple Service System',
+    LiveLink: 'https://tailarservices.web.app/',
+    src: Tailor,
     animate: 'fade-right',
   },
   {
     title: 'Music Player',
     desc: 'Ultimate music player made with pure Js',
-    link: '',
+    LiveLink: 'https://mustafizurrahma.github.io/Music-Player/index.html',
     src: MusicPlayer,
     animate: 'fade-left',
   },
   {
     title: 'Quiz App',
     desc: 'A Quiz App made with pure Js',
-    link: '',
+    LiveLink: 'https://mustafizurrahma.github.io/Quiz-App/',
     src: Quiz,
     animate: 'fade-right',
   },
   {
-    title: 'MR Keep App',
-    desc: 'This is a Note keeping app.',
-    link: '',
-    src: NoteApp,
+    title: 'Reaction',
+    desc: 'Reaction Website Like Facebook',
+    LiveLink: 'https://reaction24.netlify.app/',
+    src: Reaction,
     animate: 'fade-left',
   },
 ]

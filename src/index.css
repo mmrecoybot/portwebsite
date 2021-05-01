@@ -242,7 +242,7 @@ header #HeaderContentWrapper #HeaderDesc a {
   border-radius: 20px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  margin: 4px 0px;
+  margin: 4px 5px;
   font-family: "Titillium Web", sans-serif;
   color: cyan;
   display: inline-block;
@@ -344,10 +344,11 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 
 #About #AboutCOntentWrapper #AboutImage img {
   width: 100%;
-  -webkit-animation: ShortAbout 3s ease infinite alternate;
-          animation: ShortAbout 3s ease infinite alternate;
+  animation: ShortAbout 3s ease infinite alternate;
+  height: 400px;
+  margin-left: 30px;
+  border-radius: 30px;
 }
-
 @-webkit-keyframes ShortAbout {
   from {
     -webkit-transform: translateY(-30px);
@@ -1468,7 +1469,6 @@ footer {
 #Review {
   padding: 50px 0px;
 }
-
 #Review #ReviewContentWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1509,7 +1509,8 @@ footer {
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewImage img {
-  width: 100%;
+  width: 145px;
+  height: 145px;
   border-radius: 100%;
 }
 

@@ -46,6 +46,11 @@ const Nav = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink activeClassName="active" to="/blog">
+                Blog
+              </NavLink>
+            </li>
+            <li>
               <Mode />
             </li>
           </ul>
